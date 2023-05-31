@@ -1,6 +1,6 @@
 CREATE DATABASE  IF NOT EXISTS `weather_database`;
 create user 'admin'@'localhost' identified by 'admin';
-//dodanie uprawnien do bazki dla admin
+//dodanie uprawnien do bazki dla admin recznie
 CREATE TABLE `weather_data` (
 	`id` int not null auto_increment,
     `lon` double not null,
