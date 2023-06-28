@@ -2,13 +2,14 @@ package com.pawelmikolaj.weather.weatherapp.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.util.Date;
 
 
-@Getter @Setter @AllArgsConstructor
+@Data
 @Entity
 @Table(name = "weather_data")
 public class WeatherData {
